@@ -31407,6 +31407,10 @@ const EID = '126363';
 const API_URL = `http://185.244.172.108:8081/v1/outlay-rows/entity/${EID}`;
 const $api = axios__WEBPACK_IMPORTED_MODULE_0__["default"].create({
     baseURL: API_URL,
+    headers: {
+        'X-Requested-With': 'XMLHttpRequest',
+        'Content-Type': 'application/json'
+    }
 });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ($api);
 
@@ -41833,4 +41837,4 @@ root.render((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(react_redux__
 
 /******/ })()
 ;
-//# sourceMappingURL=main.fba94291.js.map
+//# sourceMappingURL=main.7618820f.js.map
