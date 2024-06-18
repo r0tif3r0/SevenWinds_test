@@ -1,0 +1,39 @@
+.header__container {
+    height: 44px;
+    display: flex;
+    background-color: #27272A;
+    border-bottom: 1px solid #414144;
+
+    .header__icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 27px;
+
+        svg {
+            padding-left: 20px;
+        }
+    }
+
+    .header__items {
+        display: flex;
+        color: #A1A1AA;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+
+        p {
+            cursor: pointer;
+            padding: 8px;
+            margin: 0;
+            padding: 13px 4px 15px 4px;
+            margin-right: 20px;
+            
+            &.active {
+                border-bottom: 2px solid #ffffff;
+                color: #ffffff;
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+export interface IRow {
+    equipmentCosts: number,
+    estimatedProfit: number,
+    machineOperatorSalary?: number,
+    mainCosts?: number,
+    materials?: number,
+    mimExploitation?: number,
+    overheads: number,
+    parentId?: number | null,
+    rowName: string | null,
+    salary: number,
+    supportCosts?: number,
+    child: Array<IRow>,
+    id?: number,
+}

@@ -1,0 +1,40 @@
+.row__container{
+    height: 60px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 110px auto 200px 200px 200px 200px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    border-bottom: 1px solid #414144;
+
+    .button__container {
+        display: flex;
+        align-items: center;
+        padding-left: 13px;
+        
+        &.level_1 {
+            padding-left: 26px; 
+        }
+
+        &.level_2 {
+            padding-left: 39px; 
+        }
+
+        &.level_3 {
+            padding-left: 52px; 
+        }
+    }
+
+    .data__container{
+        display: flex;
+        align-items: flex-start;
+        padding: 0 12px;
+
+        p{
+            cursor: pointer;
+        }
+    }
+}
